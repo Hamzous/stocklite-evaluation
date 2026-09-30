@@ -5,3 +5,6 @@ import { formaterLigne } from '../src/format.js';
 test('formaterLigne', () => {
   assert.equal(formaterLigne({ ref: 'A1', nom: 'Vis', quantite: 3 }), 'A1 — Vis : 3 u');
 });
+test('formaterLigne ajoute ⚠ en alerte', () => {
+  assert.equal(formaterLigne({ ref: 'A1', nom: 'Vis', quantite: 3, seuil: 5 }), 'A1 — Vis : 3 u ⚠');
+});
