@@ -32,8 +32,8 @@ commande: git cat-file -t essai-perf (commande faite sur tous les tags)
 Q08: 
 commande: 
 
-Q09: 
-commande: 
+Q09: src/utils.js
+commande: git log --follow --name-status -- src/outils.js
 
 Q10: 
 commande: 
