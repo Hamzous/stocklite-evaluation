@@ -9,7 +9,8 @@ Q01:
 commande: 
 
 Q02: 
-commande: 
+commande: git blame -L :formaterLigne depart -- src/format.js
+c'est sarah Benali qui a editée la fonction formaterLigne 
 
 Q03: 
 commande: 
