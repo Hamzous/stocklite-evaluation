@@ -5,14 +5,17 @@ Q01: <réponse>
 commande: <commande(s) utilisée(s)>
 -->
 
-Q01: 
-commande: 
+Q01: 32
+commande: git rev-list --count depart
 
 Q02: 
 commande: 
 
-Q03: 
-commande: 
+Q03: 4459c91715f9b1c97cf4776ad2e5afbdb3aa7051
+commande:   git bisect start ; 
+            git bisect bad depart ; 
+            git bisect good v0.2.0 ; 
+            git bisect run node scripts/controle-alertes.js
 
 Q04: 
 commande: 
@@ -20,8 +23,8 @@ commande:
 Q05: 
 commande: 
 
-Q06: 
-commande: 
+Q06: 17
+commande: git rev-list --count v0.2.0..v1.0.O
 
 Q07: 
 commande: 
