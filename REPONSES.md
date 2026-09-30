@@ -44,8 +44,8 @@ commande: git show v1.0.0
 Q12: 
 commande: 
 
-Q13: 
-commande: 
+Q13: de5637a
+commande: git log --onelien --merges
 
 Q14: 
 commande: 
