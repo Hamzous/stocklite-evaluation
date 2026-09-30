@@ -26,8 +26,8 @@ commande:
 Q06: 17
 commande: git rev-list --count v0.2.0..v1.0.O
 
-Q07: 
-commande: 
+Q07: commit
+commande: git cat-file -t essai-perf (commande faite sur tous les tags)
 
 Q08: 
 commande: 
