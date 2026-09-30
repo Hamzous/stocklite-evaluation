@@ -38,8 +38,8 @@ commande: git log --follow --name-status -- src/outils.js
 Q10: 
 commande: 
 
-Q11: 
-commande: 
+Q11: 2026-03-24
+commande: git show v1.0.0
 
 Q12: 
 commande: 
